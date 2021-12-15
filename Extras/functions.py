@@ -15,4 +15,4 @@ def read_matrix(filename):
     for i in range(nf):
         for j in range(nc):
             m[i, j] = x[i][j]
-    return m
+    return m, nf, nc
